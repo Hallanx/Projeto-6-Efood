@@ -3,7 +3,7 @@ import { breakpoints } from '../../styles'
 
 export const DivCardMain = styled.div`
   max-width: 320px;
-  height: auto;
+  height: 338px;
   position: relative;
   background-color: #e66767;
   padding: 8px;
