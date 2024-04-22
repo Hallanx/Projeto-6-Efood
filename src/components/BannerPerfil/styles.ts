@@ -41,6 +41,7 @@ export const Banner = styled.div`
     h2 {
       color: #ffffff;
       font-weight: 900;
+      font-size: 32px;
     }
   }
 `
