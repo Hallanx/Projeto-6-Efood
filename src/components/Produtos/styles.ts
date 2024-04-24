@@ -54,8 +54,10 @@ export const TituloProduto = styled.h2`
 export const DescricaoProduto = styled.p`
   color: #ffebd9;
   font-size: 14px;
+  font-weight: 400;
   line-height: 22px;
-  padding-top: 8px;
+  background-color: transparent;
+  text-align: start;
 `
 export const BtnProduto = styled.button`
   width: 304px;
@@ -63,9 +65,10 @@ export const BtnProduto = styled.button`
   flex-shrink: 0;
   background-color: #ffebd9;
   color: #e66767;
-  margin-top: 8px;
+  margin-top: 15px;
   align-items: center;
   cursor: pointer;
+  display: block;
 
   @media (max-width: ${breakpoints.desktop}) {
     width: 100%;
