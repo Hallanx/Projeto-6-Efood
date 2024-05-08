@@ -58,7 +58,7 @@ export const Btn = styled.button`
   background-color: #ffebd9;
   border: none;
   cursor: pointer;
-  margin-top: 24px;
+  margin-top: 10px;
 
   span {
     color: #e66767;

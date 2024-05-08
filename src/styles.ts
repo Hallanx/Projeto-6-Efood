@@ -70,7 +70,7 @@ export const InputGroup = styled.div`
 export const Sidebar = styled.aside`
   background-color: #e66767;
   z-index: 1;
-  padding: 40px 10px 0 8px;
+  padding: 32px 10px 0 8px;
   max-width: 360px;
   width: 100%;
 
@@ -112,7 +112,7 @@ export const Sidebar = styled.aside`
     margin-bottom: 8px;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 18px;
     color: black;
 
     &.error {
