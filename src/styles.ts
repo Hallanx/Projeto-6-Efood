@@ -70,8 +70,8 @@ export const InputGroup = styled.div`
 export const Sidebar = styled.aside`
   background-color: #e66767;
   z-index: 1;
-  padding: 40px 16px 0 16px;
-  max-width: 344px;
+  padding: 40px 10px 0 8px;
+  max-width: 360px;
   width: 100%;
 
   &.is-closed {
@@ -117,7 +117,7 @@ export const Sidebar = styled.aside`
 
     &.error {
       border: 3px solid red;
-      color: red;
+      color: #e66767;
     }
   }
 
@@ -125,7 +125,7 @@ export const Sidebar = styled.aside`
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
-    color: #ffebd9;
+    color: red;
     margin-bottom: 16px;
   }
 `

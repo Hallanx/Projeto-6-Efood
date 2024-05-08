@@ -53,7 +53,7 @@ export const ValorTotal = styled.div`
   }
 `
 export const Btn = styled.button`
-  width: 100%;
+  width: 344px;
   height: 24px;
   background-color: #ffebd9;
   border: none;
@@ -72,8 +72,9 @@ export const CarrinhoItem = styled.div`
   background-color: #ffebd9;
   width: 344px;
   height: 100px;
-  margin-bottom: 16px;
+  margin-bottom: 19px;
   position: relative;
+  margin-right: 20px;
 
   img {
     width: 80px;

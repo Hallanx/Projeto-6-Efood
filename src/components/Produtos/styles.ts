@@ -90,7 +90,8 @@ export const Model = styled.div`
   }
 
   .container {
-    width: 960px;
+    width: 1024px;
+    height: 344px;
 
     @media (max-width: ${breakpoints.desktop}) {
       max-width: 80%;
