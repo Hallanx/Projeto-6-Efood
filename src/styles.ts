@@ -125,7 +125,7 @@ export const Sidebar = styled.aside`
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
-    color: red;
+    color: #ffebd9;
     margin-bottom: 16px;
   }
 `

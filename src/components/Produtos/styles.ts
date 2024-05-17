@@ -69,6 +69,7 @@ export const BtnProduto = styled.button`
   align-items: center;
   cursor: pointer;
   display: block;
+  border: none;
 
   @media (max-width: ${breakpoints.desktop}) {
     width: 100%;
@@ -95,7 +96,7 @@ export const Model = styled.div`
 
     @media (max-width: ${breakpoints.desktop}) {
       max-width: 80%;
-    }
+      overflow-y: auto;
   }
 
   .overlay {
